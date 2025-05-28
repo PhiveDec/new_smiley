@@ -12,6 +12,8 @@ export default defineConfig({
       '@audio': path.resolve(__dirname, './src/assets/audio'),
       '@images': path.resolve(__dirname, './src/assets/images'),
       '@styles': path.resolve(__dirname, './src/assets/styles'),
+      '@pages': path.resolve(__dirname, './src/components/pages'),
+      '@sections': path.resolve(__dirname, './src/components/sections')
     }
   }
 })
